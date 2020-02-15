@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "allowJs": false,
+        "alwaysStrict": true,
+        "declaration": false,
+        "listEmittedFiles": true,
+        "noImplicitAny": true,
+        "outDir": "dist/",
+        "types": ["node"],
+        "target": "ES6",
+        "esModuleInterop": true,
+        "emitDecoratorMetadata": false,
+        "downlevelIteration": true
+    },
+    "include": ["src/**/*"]
+}

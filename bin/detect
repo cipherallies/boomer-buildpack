@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Always buildable
+exit 0
