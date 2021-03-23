@@ -9,7 +9,7 @@ log(aS(`Cloning configuration - username ${CFG_USERNAME}, token ${CFG_TOKEN}`));
 
 git.plugins.set('fs', require('fs'))
 git.clone({
-    dir: join(BUILD_DIR, CFG_DIR || 'config'),
+    dir: join(`${BUILD_DIR}`, CFG_DIR || 'config'),
     url: CFG_URL,
     singleBranch: true,
     depth: 1,
